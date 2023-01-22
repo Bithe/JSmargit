@@ -1,0 +1,101 @@
+body{
+    /*background-image: url('bg.jpg'); */
+    background-color: pink;
+    font-family: Arial, Helvetica, sans-serif;
+   
+}
+
+header{
+    background-color: #333;
+}
+
+main{
+    background-image: url('sky.jpg');
+}
+
+section{
+    background-image: url('bd.jpg');
+    height: 500px;
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-attachment: fixed;
+    background-size: cover;
+}
+nav ul li{
+    display: inline-block;
+    background-color: green;
+    padding: 10px;
+    margin: 15px;
+}
+
+a{
+    color: white;
+    text-decoration: none;
+}
+
+.container{
+    width: 200px;
+    background-color: beige;
+    padding: 15px;
+    border: 10px solid yellow;
+    border-radius: 10px;
+}
+img{ 
+    width: 100%;
+    border-radius: 40%;
+}
+
+
+.box{
+
+    padding: 50px;
+    margin: 20px;
+    height: 50px;
+    width: 50px;
+    display: inline-block;
+
+}
+
+.box1{
+     background-color: green ;
+     border: 10px dashed;
+     border-radius: 10px;
+}
+
+.box2{ 
+    background-color: pink;
+    border: 10px dotted;
+    border-radius: 50%;
+}
+
+.box3{ 
+    background-color: purple ;
+    border: 10px solid;
+}
+
+.box4{ 
+    background-color: red ;
+    border: 10px double;
+}
+
+.box5{ 
+    background-color: lightsalmon ;
+    border: 10px groove;
+}
+
+.box6{ 
+    background-color: lightcoral ;
+    border-top: 10px solid green ;
+    border-bottom: 10px solid red ;
+    border-left: 10px solid darkcyan ;
+    border-right: 10px solid saddlebrown ;
+    
+}
+
+.box7{ 
+    background-color: lightcyan ;
+    border: 10px ;
+    border: 10px dotted;
+  
+}
+
