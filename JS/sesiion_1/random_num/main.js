@@ -7,11 +7,11 @@ const randomNum = () =>{
 
 if((firstNum || secondNum || thirdNum) > 0 ){
     sum = firstNum+secondNum+thirdNum;
-    console.log(sum);
+    console.log(`${firstNum}, ${secondNum}, ${thirdNum}, 'Total is:'`, sum);
 
     if((firstNum && secondNum && thirdNum) >= 0){
         multiplication = firstNum*secondNum*thirdNum;
-        console.log(sum,multiplication);      
+        console.log('Total is:', sum, 'Multiplication is:', multiplication);   
         }   
     }
 
