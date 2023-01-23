@@ -26,6 +26,7 @@ for(i=1; i<100; i++){
 }
 
 console.log("/////////////////////////////");
+
 console.log("Ex 2:");
 
 let answer= '';
@@ -39,6 +40,7 @@ for(let i=2; i<100; i+=2){
 console.log(answer,end);
 
 
+console.log("/////////////////////////////");
 //ex 3
 console.log("Ex 3:");
 
@@ -63,9 +65,7 @@ let distance, time, avg;
     avg = distance/time;
     console.log('avarage is: ', avg);
  }
-
-
-//console.log();
-
+ 
+ console.log("/////////////////////////////");
 
 //ex 4
