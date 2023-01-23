@@ -42,7 +42,7 @@ console.log(answer,end);
 //ex 3
 console.log("Ex 3:");
 
-let distance, time, avg;
+
  
 //do{
     //distance = Number(prompt("Please enter Distance"));
@@ -50,6 +50,20 @@ let distance, time, avg;
     //avg= distance/time;
 
 //}while( (distance || time) !=0);
+
+let distance, time, avg;
+ while(distance!=0){
+    distance = Number(prompt('Please enter Distance in Km'));
+    if(distance == 0){
+        console.log('distance is 0 - game over');
+        break;
+    }
+
+    time = Number(prompt('Please enter Time'));
+    avg = distance/time;
+    console.log('avarage is: ', avg);
+ }
+
 
 //console.log();
 
