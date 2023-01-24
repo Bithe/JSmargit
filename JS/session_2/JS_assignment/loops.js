@@ -65,7 +65,9 @@ let distance, time, avg;
     avg = distance/time;
     console.log('avarage is: ', avg);
  }
- 
+
  console.log("/////////////////////////////");
 
 //ex 4
+
+
