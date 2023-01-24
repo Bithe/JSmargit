@@ -6,6 +6,19 @@ function myFunction2(){
     return 'hello';
 }
 
-
 myFunction(1,2,3);
 myFunction();
+
+
+const myFunction4 = () => {
+    return 'hello'
+};
+
+
+const myFunction5 = a => {
+    return a;
+};
+
+
+myFunction4();
+myFunction5(a);
