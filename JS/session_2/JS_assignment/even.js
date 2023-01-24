@@ -17,11 +17,23 @@
 
 
 let even=0;
-for(let count=0; count<100;count++){
+for(let count=0; count<5;count++){
   let input = Number(prompt('enter a number'));
 
-  if (i % 2 != 0) {
+  if (input % 2 == 0) {
            even++;
         }
 }
 console.log('there was', even, 'even numbers');
+
+
+// let even = 0;
+
+// for (let counter = 0; counter < 5; counter++) {
+//   let input = Number(prompt('Enter a number'));
+
+//   if (input % 2 == 0) {
+//     even++;
+//   }
+// }
+// console.log('There was', even, 'even numbers');
