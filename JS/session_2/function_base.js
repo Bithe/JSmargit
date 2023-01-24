@@ -22,3 +22,8 @@ const myFunction5 = a => {
 
 myFunction4();
 myFunction5(a);
+
+
+const awesomeFunction = (a, b) => a-b;
+
+awesomeFunction(1,3);
