@@ -14,7 +14,7 @@
 // avg=sum/count;
 // console.log(avg);
 
-//
+//mam
 
 let sum=0, count=0, input;
 while(input!=0){
@@ -28,6 +28,8 @@ while(input!=0){
 }
 let avg = sum/count;
 console.log(avg);
+
+
 
 
 
