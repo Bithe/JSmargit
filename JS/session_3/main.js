@@ -1,3 +1,7 @@
+//ES6
+
+
+
 const calGasoline = () => {
     const price = Number(document.getElementById('price').value);
     const money = Number( document.getElementById("money").value);
@@ -7,7 +11,9 @@ const calGasoline = () => {
     const answer = document.querySelector('#answer');
 
     let text;
-const amount = Math.floor(money/price);
+
+    const amount = Math.floor(money/price);
+
     if(amount>=10){
         text = `you could get about ${amount} ltr, good now you can go`;
     }
@@ -18,6 +24,8 @@ const amount = Math.floor(money/price);
 
 
     answer.textContent = text;
+
+    //document.querySelector('#answer').textContent = 'something';
 
     console.log(price, money);
 };
