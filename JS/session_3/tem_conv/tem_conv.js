@@ -1,15 +1,20 @@
 const calTemConv = () => {
 
         // get inputs
-    const celsius = Number( document.querySelector('#celsius').value);
+    const celsius = document.querySelector('#celsius');
 
-    const fahrenheit = Number( document.getElementById('fahrenheit').value);
+    const fahrenheit = document.getElementById('fahrenheit');
 
-    const kelvin = document.getElementById('kelvin').value;
+    const kelvin = document.getElementById('kelvin');
+
+
+    console.log(celsius.value);
+    console.log(fahrenheit.value);
+    console.log(kelvin.value);
 
      // C to F & K
 
-    const celsiusToFahrenheit = (celsius*1.8)+32;
+    fahrenheit.value = (celsius.value*1.8)+32;
 
     const celsiusTokelvin = celsius + 273.15;
 
@@ -30,5 +35,8 @@ const calTemConv = () => {
 
     //const celsiusVal = document.getElementById("celsius").value;
     
-    document.getElementById('celsius').innerHTML = (fahrenheit-32)/1.8;
+   // document.getElementById('celsius').innerHTML = (fahrenheit-32)/1.8;
+
+
+   // show one feild data to another fahrenheit.value = celsius.value;
 };
