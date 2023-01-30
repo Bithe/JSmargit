@@ -7,7 +7,7 @@ const calGasoline = () => {
     const answer = document.querySelector('#answer');
 
     let text;
-const amount = money/price;
+const amount = Math.floor(money/price);
     if(amount>=10){
         text = `you could get about ${amount} ltr, good now you can go`;
     }
