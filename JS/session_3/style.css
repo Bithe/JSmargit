@@ -12,6 +12,18 @@ button{
     border: none;
     background-color: brown;
     color: white;
-    margin: 20x 0;
+    margin: 40x 0;
     border-radius: 3px;
+}
+label{
+    display: inline-block;
+    width: 200px;
+}
+
+input{
+    display: inline-block;
+    width: 50px;
+}
+.form_group{
+    margin: 10px 0;
 }
