@@ -1,0 +1,17 @@
+body{
+    font-family: 'Trebuchet MS', sans-serif;
+}
+
+input, button{
+    font-family: inherit;
+    padding: 10px;
+    font-size: 14px;
+}
+
+button{
+    border: none;
+    background-color: brown;
+    color: white;
+    margin: 20x 0;
+    border-radius: 3px;
+}
