@@ -12,9 +12,15 @@ console.log(id,value)
     // console.log(fahrenheit.value);
     // console.log(kelvin.value);
 
-
-
 if(id == "celsius"){
+
+}
+
+else if(id == "fahrenheit"){
+
+}
+
+else if(id == "fahrenheit"){
 
 }
      // C to F & K
