@@ -1,29 +1,29 @@
-const calTemConv = (id,value) => {
+const calTemConv = (id, value) => {
 
     const val = parseFloat(value);
 
     console.log(id,val)
         // get inputs
     const celsiusInput = document.querySelector('#celsius');
-    const fahrenheitInput = document.getElementById('fahrenheit');
-    const kelvinInput = document.getElementById('kelvin');
+    const fahrenheitInput = document.querySelector('#fahrenheit');
+    const kelvinInput = document.querySelector('#kelvin');
 
 
-if(id == "celsius"){
-   fahrenheitInput.val = (val * 1.8)+32;
-   kelvinInput.val = val + 273.15;
+if(id == 'celsius'){
+   fahrenheitInput.value = (val * 1.8 + 32).toFixed(2);
+   kelvinInput.value = (val + 273.15).toFixed(2);
 
 }
 
-else if(id == "fahrenheit"){
-celsiusInput.val = (val - 32)/1.8;
-kelvinInput.val =  (val-32)*1.8+273.15;
+ if(id == 'fahrenheit'){
+celsiusInput.value = ((val - 32)/1.8).toFixed(2);
+kelvinInput.value =  (val-32)*1.8+273.15;
 }
 
-else if(id == "kelvin"){
+ if(id == "kelvin"){
 
-celsiusInput.val = val-273.15;
-fahrenheitInput.val = ( val - 273.15 ) *1.8 + 32;
+celsiusInput.value = val-273.15;
+fahrenheitInput.value = ( val - 273.15 ) *1.8 + 32;
 }
 
 
