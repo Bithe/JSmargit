@@ -8,7 +8,6 @@ const calTemConv = (id, value) => {
     const fahrenheitInput = document.querySelector('#fahrenheit');
     const kelvinInput = document.querySelector('#kelvin');
 
-
 if(id == 'celsius'){
    fahrenheitInput.value = (val * 1.8 + 32).toFixed(2);
    kelvinInput.value = (val + 273.15).toFixed(2);
@@ -17,15 +16,14 @@ if(id == 'celsius'){
 
  if(id == 'fahrenheit'){
 celsiusInput.value = ((val - 32)/1.8).toFixed(2);
-kelvinInput.value =  (val-32)*1.8+273.15;
+kelvinInput.value =  ((val-32)*1.8+273.15).toFixed(2);
 }
 
  if(id == "kelvin"){
 
-celsiusInput.value = val-273.15;
-fahrenheitInput.value = ( val - 273.15 ) *1.8 + 32;
+celsiusInput.value = ( val-273.15 ).toFixed(2);
+fahrenheitInput.value = ( ( val - 273.15 ) *1.8 + 32).toFixed(2);
 }
-
 
 };
 
