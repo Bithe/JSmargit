@@ -1,17 +1,61 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Pizza Website</title>
-</head>
-<body>
-    <h1>Order Your Pizza</h1>
 
-    <form action="">
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <header>
+      <h1>Order Your Pizza</h1>
 
-<button type="submit">Order</button>
-    </form>
-</body>
+      <h3></h3>
+    </header>
+
+    <section class="container">
+      <form action="">
+        Enter your Name: <input type="text" id="name" />
+        <br />
+        <!-- size of the pizza -->
+
+        <label for="">Please choose the size of your pizza </label>
+
+        <div class="form_group">
+
+          <ul>
+            <li><input type="radio" id="2"/> 2, the price is 7.50 €</li>
+            <li><input type="radio" id="4" /> 4, the price is 10.50 €</li>
+            <li><input type="radio" id="6" /> 6, the price is 12.50 €</li>
+            <li><input type="radio" id="8" /> 8, the price is 15.50 €</li>
+          </ul>
+        </div>
+
+        <div>
+          <h4>First four is free, after that +0.5€ will be added</h4>
+          <label for="">Troppings</label>
+
+          <ul>
+            <li>
+              <input type="checkbox" />Pepperoni
+              <input type="checkbox" /> Mushroom
+              <input type="checkbox" name="" id="" /> Sausage
+            </li>
+          </ul>
+
+          <div>
+            <input type="checkbox" /> Delivery Home
+            <input type="checkbox" /> Eat in <input type="checkbox" /> Pickup
+            Food
+          </div>
+        </div>
+
+        <button type="submit" id="pizzaCal">Order</button>
+      </form>
+    </section>
+
+    <section></section>
+  </body>
 </html>

@@ -1,0 +1,43 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body{
+   
+font-family: 'Times New Roman', Times, serif;
+background-image: url('back.jpg');
+width: 100%;
+height: auto;
+background-repeat: no-repeat;
+
+background-size: cover;
+color: white;
+
+}
+
+h1{
+   
+    text-align: center;
+}
+
+.form_group{
+     
+}
+li{
+    list-style: none;
+    
+}
+
+button{
+    color: darkblue;
+    font-size: 1em;
+    
+    background: linear-gradient(white, white) padding-box,
+              linear-gradient(to right, darkblue, darkorchid) border-box;
+  border-radius: 50em;
+  border: 4px solid transparent;
+  display: inline-flex;
+
+   padding: 12px;
+}
