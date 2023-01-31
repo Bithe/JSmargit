@@ -1,26 +1,38 @@
 *{
-    margin: 0;
-    padding: 0;
+
 }
 
-body{
-    background-color: green;
+.container{
+    background-color: aliceblue;
+    border: 20px solid yellow;
+    box-shadow: 50px red;
+display: flex;
+justify-content: center;
+}
+
+.sign_up{
+    border: 20px solid  black;
+    margin: 20px;
     text-align: center;
+    width: 350px;
+
+    box-shadow: 50px red;
+}
+.form{
+    box-shadow: 10px gray;
 }
 
 
-.form_group{
-
-    width: 300px;
-    background: #ccc;
-padding: 40px 20px;
+.button{
+padding: 15px 50px;
+    background-image: linear-gradient( 45deg, #add100, #7b920a);
+    border: none;
+    border-radius: 10px;
+    
 }
-input[type=text], select {
-    width: 100%;
-    padding: 12px 20px;
-    margin: 8px 0;
-    display: inline-block;
-    border: 1px solid #ccc;
-    border-radius: 4px;
-    box-sizing: border-box;
-  }
+
+.button:hover{
+    background-color: white;
+    color: white;
+    cursor: pointer;
+}
