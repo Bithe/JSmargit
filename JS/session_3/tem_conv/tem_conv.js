@@ -1,20 +1,22 @@
-const calTemConv = (id) => {
-
+const calTemConv = (id,value) => {
+console.log(id,value)
         // get inputs
-    const celsius = document.querySelector('#celsius');
+    const celsiusInput = document.querySelector('#celsius');
 
-    const fahrenheit = document.getElementById('fahrenheit');
+    const fahrenheitInput = document.getElementById('fahrenheit');
 
-    const kelvin = document.getElementById('kelvin');
-
-
-    console.log(celsius.value);
-    console.log(fahrenheit.value);
-    console.log(kelvin.value);
+    const kelvinInput = document.getElementById('kelvin');
 
 
+    // console.log(celsius.value);
+    // console.log(fahrenheit.value);
+    // console.log(kelvin.value);
 
-    console.log(id);
+
+
+if(id == "celsius"){
+
+}
      // C to F & K
 
     // fahrenheit.value = (celsius.value*1.8)+32;
