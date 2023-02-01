@@ -9,15 +9,15 @@ body{
 }
 .container{
   
-    border: 20px solid yellow;
+    border: 2px solid yellow;
     box-shadow: 50px red;
-display: flex;
+display: grid;
 justify-content: center;
 
 }
 
 .sign_up{
-    border: 20px solid  black;
+    border: 2px solid  black;
     margin: 20px;
     text-align: center;
     width: 350px;
