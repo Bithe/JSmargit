@@ -11,7 +11,7 @@ body{
   
     border: 2px solid yellow;
     box-shadow: 50px red;
-display: grid;
+display: flex;
 justify-content: center;
 
 }
@@ -30,6 +30,7 @@ justify-content: center;
     border: 2px solid green;
     box-shadow: 10px gray;
     padding: 50px;
+    display: flex;
    
 
 }
