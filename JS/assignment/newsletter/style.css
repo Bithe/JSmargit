@@ -2,9 +2,13 @@
 margin: 0;
 padding: 0;
 }
-
-.container{
+body{
     background-color: #236746;
+    text-align: center;
+
+}
+.container{
+  
     border: 20px solid yellow;
     box-shadow: 50px red;
 display: flex;
