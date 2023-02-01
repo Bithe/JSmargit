@@ -1,3 +1,30 @@
 body{
-    background-color: aquamarine;
+    background-color: rgb(51, 58, 55);
+}
+
+h1{
+    color: white;
+}
+@media ( min-width:576px) {
+    body{
+        background-color: rgb(44, 44, 127);
+    }
+}
+
+@media ( min-width:768px) {
+    body{
+        background-color: rgb(53, 4, 4);
+    }
+}
+
+@media ( min-width:992px) {
+    body{
+        background-color: rgb(21, 56, 15);
+    }
+}
+
+@media ( min-width:1200px) {
+    body{
+        background-color: rgb(73, 2, 62);
+    }
 }

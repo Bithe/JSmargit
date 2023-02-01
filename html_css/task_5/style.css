@@ -6,19 +6,19 @@ h1{
     color: white;
 }
 
-@media (max-width: 1200){
+@media (max-width: 1200px){
     body{
         background-color: bisque;
     }
 }
 
-@media (max-width: 992){
+@media (max-width: 992px){
     body{
         background-color: cadetblue;
     }
 }
 
-@media (max-width: 768){
+@media (max-width: 768px){
     body{
         background-color: black;
     }
