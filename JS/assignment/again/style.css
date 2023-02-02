@@ -54,6 +54,26 @@ input{
     border-radius: 8px;
 }
 
+.inWicon{
+    display: flex;
+    flex-direction: column;
+}
+
+.inWicon input[type-text]{
+    padding-left: 40px;
+}
+.inWicon{
+    position: relative;
+}
+
+   .inWicon i{
+    position: absolute;
+    left: 230px;
+    top: 28px;
+    padding: 9px 8px;
+   } 
+
+
 button{
     background-color: #ff7f4f;
     color: white ;
@@ -68,3 +88,20 @@ footer{
     text-align: center;
 }
 
+
+/*  */
+.inputContainer {
+    display: flex;
+    align-items: center;
+    position: relative;
+  }
+  
+  .input {
+    width: 100%;
+    padding-right: 40px;
+  }
+  
+  .fa fa-user icon {
+    position: absolute;
+    right: 10px;
+  }
