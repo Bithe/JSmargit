@@ -1,0 +1,26 @@
+*body{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+
+main{
+    display: flex;
+    
+}
+
+.linear_color{
+    
+    border: 20px solid black;
+    width: 30vw;
+    text-align: center;
+    height: 100vw;
+}
+
+input[type]
+.show_colors{
+    border: 20px solid saddlebrown;
+    width: 70vw;
+    height: 100vw;
+}
