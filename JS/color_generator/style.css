@@ -15,12 +15,12 @@ main{
     border: 20px solid black;
     width: 30vw;
     text-align: center;
-    height: 100vw;
+    height: 100vh;
 }
 
 
 .show_colors{
     border: 20px solid saddlebrown;
     width: 70vw;
-    height: 100vw;
+    height: 100vh;
 }
