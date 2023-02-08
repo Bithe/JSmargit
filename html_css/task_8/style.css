@@ -6,7 +6,31 @@
 
 
 body{
-    background-color: darkblue;
+    background-color: rgb(132, 132, 180);
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-    
+
+}
+
+header{
+    display: flex;
+    justify-content: space-between;
+    padding: 2rem;
+}
+
+/* ul{
+    display: flex;
+} */
+
+li{
+    display: inline-block;
+}
+
+a{
+    color: white ;
+    text-decoration: none;
+    text-transform: uppercase;
+}
+
+a:hover{
+    text-decoration: wavy;
 }
