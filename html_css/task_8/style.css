@@ -58,10 +58,40 @@ P:nth-child((5n+4)){
     background-color: darkgrey ;
 }
 
-h2::before{
-    content: 'bithe ';
+/* h2::before{
+    content: '';
+    height: 50px;
+    width: 50px;
     color: violet;
+    display: block;
 }
 h2::after{
     content: 'stupid';
+} */
+
+
+.box{
+    height: 100px;
+    width: 100px;
+    background-color: black;
+    position: fixed;
+    top: 0;
+    right: 0;
+}
+
+.box1{
+    height: 100px;
+    width: 100px;
+    background-color: rgb(106, 57, 57);
+    position: relative;
+    top: 200px;
+    right: 20px;
+}
+.box2{
+    height: 100px;
+    width: 100px;
+    background-color: rgb(20, 98, 60);
+    position: absolute;
+    top: 200px;
+    right: 200px;
 }
